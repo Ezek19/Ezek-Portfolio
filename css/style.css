@@ -1,0 +1,84 @@
+/*reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: '';content: none;}
+:focus {outline: 0;}
+ins {text-decoration: none;}
+del {text-decoration: line-through;}
+table {border-collapse: collapse;border-spacing: 0;}
+
+.clearer { height: 0px; overflow: hidden; margin: 0px; clear: both; }
+
+/* Link */
+a { color:#c26306; text-decoration:none;}
+a:link, a:visited { color: #c26306; text-decoration: none; }
+a:active, a:hover { color: #b80707; text-decoration: underline }
+
+h2 {font-size:55px;color:#161616;margin: 20px 0 30px 0; letter-spacing: -1.5px;}
+h3 {font-size:40px;color:#f0a108;margin: 20px 0 30px 0;letter-spacing:-1px;}
+p {line-height:24px; font-size:13px;margin:0 0 10px 0;}
+#portfolio p {line-height:24px; font-size:13px;margin:0 0 30px 0;}
+
+body {background:#fff;font:12px "Century Gothic", arial, Helvetica, sans-serif;color:#444;}
+.container {width:960px;margin: 0 auto;}
+.logo {width:212px; margin:10px 0 0 320px;}
+
+/*navigation*/
+.TopNavigation {height:60px;background:url(../images/bg_nav.gif) no-repeat top center;}
+.social {width:90px; height:60px;float:right; padding: 15px 0 0 0;}
+ul.nav {width:960px;margin: 0 0 0 270px;width: 450px;}
+ul.nav li {float:left;display:inline;margin:20px 60px 0 0;font-size:15px;font-family:"Century Gothic", arial, Helvetica;}
+ul.nav a {color:#666;text-decoration:none;}
+ul.nav a:hover {color:#ae5b02;}
+ul.nav .active {color:#ae5b02;border-bottom:1px solid #ae5b02;}
+
+/*Cu3er slider*/
+#slider {margin: 0 0 0 10px;}
+.shadow {margin:0 0 50px 50px;}
+
+#containerAbout {width:960px;}
+.rightAbout {float:left;width:290px;margin:0 0 0 15px;}
+.leftAbout {float:left;width:640px;background:url(../images/me1.jpg) no-repeat bottom right;border-right:1px solid #b1b1b1;}
+.leftAbout p {padding:0 280px 0 0;}
+#skills {width:960px;height:80px;background:url(../images/bg1.gif) no-repeat top center;margin:20px 0 50px 0;}
+#skills ul {margin: 0 0 0 270px;list-style:none;padding-top:30px;}
+#skills li {display:inline;margin:40px 10px 0 10px;font-size:15px;font-family:"Century Gothic", arial, Helvetica;}
+
+/*twitter*/
+ul#twitter_update_list li {list-style-type:none;padding: 0 0 15px 0;color:#000;margin:0;}
+ul#twitter_update_list .divisor {height:1px;border-bottom:1px solid #b1b1b1;}
+ul#twitter_update_list .data {color:#6b6c69;}
+ul#twitter_update_list .data:before {content:"#[";}
+ul#twitter_update_list .data:after {content:"]";}
+ul#twitter_update_list a:link, ul#twitter_update_list a:visited {color:#ab4b05;text-decoration:none;}
+ul#twitter_update_list a:hover, ul#twitter_update_list a:active {color:#ab4b05;text-decoration:underline;}
+
+.quote {background:url(../images/quote.gif) no-repeat top left; padding: 20px 0 0 60px; border-top:1px dashed #b1b1b1;}
+
+/*contact form*/
+#form {width:570px;margin: 20px 0 40px 0;float:left;}
+.notification_error{border: 1px solid #f1dfc5;height: auto;color: #ca5702;width: 457px;padding: 10px 10px 10px 60px;background:url(../images/icons/erro.png) no-repeat center left #fdf0dc;text-align:left;-moz-border-radius:5px;margin-bottom:10px;}
+.notification_ok{border: 1px #cbcf8e solid;height: auto;width: 90%;padding: 10px;background: #f5f9fd;text-align: center;-moz-border-radius: 5px;margin-bottom:10px;}
+label  { width: 100px; margin: 5px; float: left; text-align:left;}
+textarea{width:400px;margin: 5px;padding: 5px; float: left;border: 1px solid #999999; border-top-color: #CCCCCC; border-left-color: #CCCCCC; color: #333333; font: 11px Verdana, Helvetica, Arial, sans-serif;-moz-border-radius: 3px;}
+.button {margin: 0 0 0 5px;}
+br { clear: left; }
+.textbox {width:400px;height:30px;margin: 5px;padding: 5px; float: left;border: 1px solid #999999; border-top-color: #CCCCCC; border-left-color: #CCCCCC; color: #333333; font: 11px Verdana, Helvetica, Arial, sans-serif;-moz-border-radius: 3px;}
+.textbox2 {height:140px;}
+
+/*contact info*/
+#contactInfo {float:left;width:350px;margin:20px 0 0 0;}
+.bolder {font-weight:bold;font-size:24px;letter-spacing:-1.5px;}
+
+p.footer {text-align:center;font-size:11px;margin: 0 0 20px 0;border-top:1px dashed #b1b1b1;}
